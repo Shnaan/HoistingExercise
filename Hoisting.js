@@ -15,7 +15,7 @@ const travelDate = "2024-03-15";
  * Observations:
  * TODO: Explain here.
  * trying to assing new value to constant travelDate raise uncaught error :assign to constant variable
- * what happen is that constant can't resing doing so violate constant rule and raise exception
+ * what happen is that constant can't reassigned  doing so violate constant rule and raise exception
  */
 
 /* Task 4: Experiment with Variable Hoisting */
@@ -28,7 +28,7 @@ var timeMachineModel = "T-800";
 /*
  * Observations:
  * TODO: Explain here.
- * variable value print and access successfully  even that  variable declartion was in following lines of code
+ * variable value print as undefine no error raised 
  * this call Hoisting when we can access and element Before its declaration 
  * this happened because javascript interpreter move declaraion of var,function and class to the top 
  */
